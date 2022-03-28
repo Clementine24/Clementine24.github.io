@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>笨蛋启示录</title>
+      <link href="/2022/03/28/%E7%AC%A8%E8%9B%8B%E5%90%AF%E7%A4%BA%E5%BD%95/"/>
+      <url>/2022/03/28/%E7%AC%A8%E8%9B%8B%E5%90%AF%E7%A4%BA%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>这篇博客主要记载一些编程时遇到的比较偏、怪的问题，大多数很难在网络上搜寻到，是多次尝试后的结果。为日后查询提供参考。</p><span id="more"></span><h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><ul><li>Numpy数组有一个独特的优势在于可以使用隐式的tuple数据类型作为索引，MATLAB和一般的Python数组都无法做到。</li></ul><h2 id="MATLAB"><a href="#MATLAB" class="headerlink" title="MATLAB"></a>MATLAB</h2><ul><li>max（）返回最大值，但max（array，[]，dim）返回所求dim最大索引下标。</li><li>reshape函数和array（：）以及array（a:b）=matrix解锁自成一派，建议不要自己索引打乱它。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programming </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Programming </tag>
+            
+            <tag> Guide </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Deep Learning: Introduction</title>
       <link href="/2022/02/08/Deep-Learning-Introduction/"/>
       <url>/2022/02/08/Deep-Learning-Introduction/</url>
